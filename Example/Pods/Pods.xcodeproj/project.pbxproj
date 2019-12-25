@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0B8315594AECE19D98BBBD5907971A /* Pods-WDCSqlite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C3BB9DE0CD157B7955AA7E1BC26CC /* Pods-WDCSqlite_Tests-dummy.m */; };
+		11254E91F5788415248341871EB51EF1 /* WDCModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DAACC5176029B86E669C0F0920400E /* WDCModelProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11526AF2FD8B0E6B06F89647C3C96D26 /* WDCModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E38E00FE5BFE1844A8A489B0617C5E07 /* WDCModelTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4180DD64FB4EFDC1E5FEF1897D17BCF7 /* WDCSqlite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE6E5D251F486AF52F75DFFD2061E9 /* WDCSqlite-dummy.m */; };
+		42402C44BEBAF2B787AAE5176AF2EA18 /* WDCSqliteAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFFD70EC8075E9D8897FA9DC52A98B0 /* WDCSqliteAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B5DE66A8B4C638B022530C3185ECB0D /* WDCModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E3658FFE6ECBCD95DC8AB51AEA083 /* WDCModelTool.m */; };
+		68013188B61CFBF7383D128BE16E1772 /* WDCSqliteModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4A2879F3F7B798FBF3341C851B4060 /* WDCSqliteModelTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C470D45D5BA633CB605796841AAC6F9 /* Pods-WDCSqlite_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BF0D07C350FB0EF10F1FBC8FB598D8 /* Pods-WDCSqlite_Example-dummy.m */; };
+		7488E55DD6F921F43A7FB89D34C9C70C /* WDCSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA84EA6FD689444BFCA59F481CD6B68 /* WDCSqliteTool.m */; };
+		8326A0EAEFE0AB73A8D5D3D74CAE528A /* WDCSqliteConditionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CEA72B0EDAC1A6414CAF37CC8301B /* WDCSqliteConditionMaker.m */; };
+		8584538A567768AF32CC904A347FF74A /* WDCSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C88200E8F0702A7943A4B13D5C79FEE /* WDCSqliteModelTool.m */; };
+		973BD6E35FA5015B5A0514648D61B5D9 /* WDCSqliteConditionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B91A719FD9502381D7708AC36BDAF4 /* WDCSqliteConditionMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A08FC89792EF1BB26B9D0473CDBD245C /* WDCSqliteBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF571E50FFC59A1AE44EFCA7ACE3531 /* WDCSqliteBaseTool.m */; };
+		D4DE1A1F12311174BF7B9FF1CE977041 /* WDCSqliteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7F492FDD54FC2D6EB14F83CB95881F /* WDCSqliteTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF0B8652BD9B647081E3B17FE69C3F56 /* WDCTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC240837A78EDBC875556BC57DE711 /* WDCTableTool.m */; };
+		E3544443CD6CB3E4B69A5733CF48D676 /* WDCSqliteBaseTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E496BBC93B5E5B1E028060FE494E0B /* WDCSqliteBaseTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5CC68D2E6B90CFA63155D3464EC9CF3 /* WDCTableTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F05DE29D381179F523532FAC3E810A3 /* WDCTableTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7A552CDF1D35EAF766A59BB0905C927 /* WDCSqliteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A12573EF8F6B11C30D57CF03603DB7D /* WDCSqliteAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09BF1FAD8C1CAF93F8AA3C9FFF000872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA61D5DD00D174F6A987AA4CE47A4C86;
+			remoteInfo = "Pods-WDCSqlite_Example";
+		};
+		9CA2364C34E4AA64BBB6BD712861AA6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04DB41AD5B6B0E9205DA993479F6C1C;
+			remoteInfo = WDCSqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C88200E8F0702A7943A4B13D5C79FEE /* WDCSqliteModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteModelTool.m; path = WDCSqlite/Classes/WDCSqliteModelTool.m; sourceTree = "<group>"; };
+		29BF0D07C350FB0EF10F1FBC8FB598D8 /* Pods-WDCSqlite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDCSqlite_Example-dummy.m"; sourceTree = "<group>"; };
+		29E73B7D070B7AC022118C3BB5512DA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2A12573EF8F6B11C30D57CF03603DB7D /* WDCSqliteAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteAPI.m; path = WDCSqlite/Classes/WDCSqliteAPI.m; sourceTree = "<group>"; };
+		2C4DBB476F340EE2F86CD22763934BAC /* Pods-WDCSqlite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDCSqlite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32DAACC5176029B86E669C0F0920400E /* WDCModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCModelProtocol.h; path = WDCSqlite/Classes/WDCModelProtocol.h; sourceTree = "<group>"; };
+		341779FAD5C06E3C9666CAAE7B760E7B /* libPods-WDCSqlite_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WDCSqlite_Tests.a"; path = "libPods-WDCSqlite_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E8114FB104C4A0803D023D03A957A2 /* WDCSqlite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDCSqlite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F05DE29D381179F523532FAC3E810A3 /* WDCTableTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCTableTool.h; path = WDCSqlite/Classes/WDCTableTool.h; sourceTree = "<group>"; };
+		5028E2F3767110C057CC44DCD98408ED /* Pods-WDCSqlite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCSqlite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C2CEA72B0EDAC1A6414CAF37CC8301B /* WDCSqliteConditionMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteConditionMaker.m; path = WDCSqlite/Classes/WDCSqliteConditionMaker.m; sourceTree = "<group>"; };
+		6CF571E50FFC59A1AE44EFCA7ACE3531 /* WDCSqliteBaseTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteBaseTool.m; path = WDCSqlite/Classes/WDCSqliteBaseTool.m; sourceTree = "<group>"; };
+		776E3658FFE6ECBCD95DC8AB51AEA083 /* WDCModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCModelTool.m; path = WDCSqlite/Classes/WDCModelTool.m; sourceTree = "<group>"; };
+		79DF0BEF1B209B3B9935AE93756B68CC /* libWDCSqlite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWDCSqlite.a; path = libWDCSqlite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFD0B7977455E2E10CD04EC009F6076 /* Pods-WDCSqlite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCSqlite_Example.release.xcconfig"; sourceTree = "<group>"; };
+		81410E7CB2C783D89785DA62599C9489 /* WDCSqlite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDCSqlite-prefix.pch"; sourceTree = "<group>"; };
+		869B845CA218FE1F1E683CCCCCAAEFAA /* Pods-WDCSqlite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDCSqlite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8941262C6F8EF277E022BBA43975D4CF /* Pods-WDCSqlite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCSqlite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E812AA569FA4FB0EA5D71C04147EF29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9516DBD7CFD445DFAB9BFE19B8F51AD1 /* Pods-WDCSqlite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCSqlite_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9A04E2CF5522A6C4BFE4683D4993ED3D /* Pods-WDCSqlite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDCSqlite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE0FA23876918D9627BDDE1470B90F1 /* WDCSqlite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDCSqlite.xcconfig; sourceTree = "<group>"; };
+		A5E496BBC93B5E5B1E028060FE494E0B /* WDCSqliteBaseTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteBaseTool.h; path = WDCSqlite/Classes/WDCSqliteBaseTool.h; sourceTree = "<group>"; };
+		AA3C3BB9DE0CD157B7955AA7E1BC26CC /* Pods-WDCSqlite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDCSqlite_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADA84EA6FD689444BFCA59F481CD6B68 /* WDCSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCSqliteTool.m; path = WDCSqlite/Classes/WDCSqliteTool.m; sourceTree = "<group>"; };
+		BFFFD70EC8075E9D8897FA9DC52A98B0 /* WDCSqliteAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteAPI.h; path = WDCSqlite/Classes/WDCSqliteAPI.h; sourceTree = "<group>"; };
+		C1B91A719FD9502381D7708AC36BDAF4 /* WDCSqliteConditionMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteConditionMaker.h; path = WDCSqlite/Classes/WDCSqliteConditionMaker.h; sourceTree = "<group>"; };
+		CA758B9CA9150126D898214B8B5EC06F /* Pods-WDCSqlite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDCSqlite_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC4A2879F3F7B798FBF3341C851B4060 /* WDCSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteModelTool.h; path = WDCSqlite/Classes/WDCSqliteModelTool.h; sourceTree = "<group>"; };
+		D7AC240837A78EDBC875556BC57DE711 /* WDCTableTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDCTableTool.m; path = WDCSqlite/Classes/WDCTableTool.m; sourceTree = "<group>"; };
+		E38E00FE5BFE1844A8A489B0617C5E07 /* WDCModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCModelTool.h; path = WDCSqlite/Classes/WDCModelTool.h; sourceTree = "<group>"; };
+		E3D82CDA0B60087D0E175287860BAAC7 /* libPods-WDCSqlite_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WDCSqlite_Example.a"; path = "libPods-WDCSqlite_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7F492FDD54FC2D6EB14F83CB95881F /* WDCSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDCSqliteTool.h; path = WDCSqlite/Classes/WDCSqliteTool.h; sourceTree = "<group>"; };
+		FDEE6E5D251F486AF52F75DFFD2061E9 /* WDCSqlite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDCSqlite-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D5755111783C918EEC9621585D57E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98562B37A55E1988614ADEEAE61A0454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFC4FDBBACF086AC9B3819A8540E006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC77B726F5DE939FC3287E8F58A3FB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FE0FA23876918D9627BDDE1470B90F1 /* WDCSqlite.xcconfig */,
+				FDEE6E5D251F486AF52F75DFFD2061E9 /* WDCSqlite-dummy.m */,
+				81410E7CB2C783D89785DA62599C9489 /* WDCSqlite-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WDCSqlite";
+			sourceTree = "<group>";
+		};
+		22B969DFCC11B0B5EAED9088A0E09612 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8E812AA569FA4FB0EA5D71C04147EF29 /* LICENSE */,
+				29E73B7D070B7AC022118C3BB5512DA8 /* README.md */,
+				40E8114FB104C4A0803D023D03A957A2 /* WDCSqlite.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5612B3B1092DECCA087575D3FF8C77C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6140E2CE51FF977D126EA42F76C15E5E /* WDCSqlite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6140E2CE51FF977D126EA42F76C15E5E /* WDCSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				32DAACC5176029B86E669C0F0920400E /* WDCModelProtocol.h */,
+				E38E00FE5BFE1844A8A489B0617C5E07 /* WDCModelTool.h */,
+				776E3658FFE6ECBCD95DC8AB51AEA083 /* WDCModelTool.m */,
+				BFFFD70EC8075E9D8897FA9DC52A98B0 /* WDCSqliteAPI.h */,
+				2A12573EF8F6B11C30D57CF03603DB7D /* WDCSqliteAPI.m */,
+				A5E496BBC93B5E5B1E028060FE494E0B /* WDCSqliteBaseTool.h */,
+				6CF571E50FFC59A1AE44EFCA7ACE3531 /* WDCSqliteBaseTool.m */,
+				C1B91A719FD9502381D7708AC36BDAF4 /* WDCSqliteConditionMaker.h */,
+				6C2CEA72B0EDAC1A6414CAF37CC8301B /* WDCSqliteConditionMaker.m */,
+				CC4A2879F3F7B798FBF3341C851B4060 /* WDCSqliteModelTool.h */,
+				1C88200E8F0702A7943A4B13D5C79FEE /* WDCSqliteModelTool.m */,
+				EB7F492FDD54FC2D6EB14F83CB95881F /* WDCSqliteTool.h */,
+				ADA84EA6FD689444BFCA59F481CD6B68 /* WDCSqliteTool.m */,
+				4F05DE29D381179F523532FAC3E810A3 /* WDCTableTool.h */,
+				D7AC240837A78EDBC875556BC57DE711 /* WDCTableTool.m */,
+				22B969DFCC11B0B5EAED9088A0E09612 /* Pod */,
+				1BC77B726F5DE939FC3287E8F58A3FB5 /* Support Files */,
+			);
+			name = WDCSqlite;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		887138C259137C7A8953454973864276 /* Pods-WDCSqlite_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4DBB476F340EE2F86CD22763934BAC /* Pods-WDCSqlite_Tests-acknowledgements.markdown */,
+				9A04E2CF5522A6C4BFE4683D4993ED3D /* Pods-WDCSqlite_Tests-acknowledgements.plist */,
+				AA3C3BB9DE0CD157B7955AA7E1BC26CC /* Pods-WDCSqlite_Tests-dummy.m */,
+				8941262C6F8EF277E022BBA43975D4CF /* Pods-WDCSqlite_Tests.debug.xcconfig */,
+				CA758B9CA9150126D898214B8B5EC06F /* Pods-WDCSqlite_Tests.release.xcconfig */,
+			);
+			name = "Pods-WDCSqlite_Tests";
+			path = "Target Support Files/Pods-WDCSqlite_Tests";
+			sourceTree = "<group>";
+		};
+		984D27B430A46BA480786437927ECF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D82CDA0B60087D0E175287860BAAC7 /* libPods-WDCSqlite_Example.a */,
+				341779FAD5C06E3C9666CAAE7B760E7B /* libPods-WDCSqlite_Tests.a */,
+				79DF0BEF1B209B3B9935AE93756B68CC /* libWDCSqlite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B71EA36B2E9398267F3EBA6DC3BF8B9 /* Pods-WDCSqlite_Example */ = {
+			isa = PBXGroup;
+			children = (
+				869B845CA218FE1F1E683CCCCCAAEFAA /* Pods-WDCSqlite_Example-acknowledgements.markdown */,
+				5028E2F3767110C057CC44DCD98408ED /* Pods-WDCSqlite_Example-acknowledgements.plist */,
+				29BF0D07C350FB0EF10F1FBC8FB598D8 /* Pods-WDCSqlite_Example-dummy.m */,
+				9516DBD7CFD445DFAB9BFE19B8F51AD1 /* Pods-WDCSqlite_Example.debug.xcconfig */,
+				7FFD0B7977455E2E10CD04EC009F6076 /* Pods-WDCSqlite_Example.release.xcconfig */,
+			);
+			name = "Pods-WDCSqlite_Example";
+			path = "Target Support Files/Pods-WDCSqlite_Example";
+			sourceTree = "<group>";
+		};
+		9E79B303754FFD9DBE9D6621A97C7678 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B71EA36B2E9398267F3EBA6DC3BF8B9 /* Pods-WDCSqlite_Example */,
+				887138C259137C7A8953454973864276 /* Pods-WDCSqlite_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5612B3B1092DECCA087575D3FF8C77C4 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				984D27B430A46BA480786437927ECF30 /* Products */,
+				9E79B303754FFD9DBE9D6621A97C7678 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3491F98756821389D66B738AA65831D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0043C7B7A48B8E184FC104E983A33D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC48AAD7BD6546C2FEA006D1A1AB32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11254E91F5788415248341871EB51EF1 /* WDCModelProtocol.h in Headers */,
+				11526AF2FD8B0E6B06F89647C3C96D26 /* WDCModelTool.h in Headers */,
+				42402C44BEBAF2B787AAE5176AF2EA18 /* WDCSqliteAPI.h in Headers */,
+				E3544443CD6CB3E4B69A5733CF48D676 /* WDCSqliteBaseTool.h in Headers */,
+				973BD6E35FA5015B5A0514648D61B5D9 /* WDCSqliteConditionMaker.h in Headers */,
+				68013188B61CFBF7383D128BE16E1772 /* WDCSqliteModelTool.h in Headers */,
+				D4DE1A1F12311174BF7B9FF1CE977041 /* WDCSqliteTool.h in Headers */,
+				F5CC68D2E6B90CFA63155D3464EC9CF3 /* WDCTableTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C5B98B8B3D340539A0FF22DE40C2FD5 /* Pods-WDCSqlite_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E115765F2F79411C3F574F4BC22A898 /* Build configuration list for PBXNativeTarget "Pods-WDCSqlite_Tests" */;
+			buildPhases = (
+				D0043C7B7A48B8E184FC104E983A33D3 /* Headers */,
+				E9B5ADD0E77C75691070545068CD7C45 /* Sources */,
+				98562B37A55E1988614ADEEAE61A0454 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D4662577ABC466DE35172A250D8116 /* PBXTargetDependency */,
+			);
+			name = "Pods-WDCSqlite_Tests";
+			productName = "Pods-WDCSqlite_Tests";
+			productReference = 341779FAD5C06E3C9666CAAE7B760E7B /* libPods-WDCSqlite_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CA61D5DD00D174F6A987AA4CE47A4C86 /* Pods-WDCSqlite_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A31E952F7CE741598BE0AAEF4A6B51 /* Build configuration list for PBXNativeTarget "Pods-WDCSqlite_Example" */;
+			buildPhases = (
+				C3491F98756821389D66B738AA65831D /* Headers */,
+				7B293EE932622C910D9702583F3F8DC4 /* Sources */,
+				24D5755111783C918EEC9621585D57E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77499AD8830712A9EBF06F1DE9481157 /* PBXTargetDependency */,
+			);
+			name = "Pods-WDCSqlite_Example";
+			productName = "Pods-WDCSqlite_Example";
+			productReference = E3D82CDA0B60087D0E175287860BAAC7 /* libPods-WDCSqlite_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D04DB41AD5B6B0E9205DA993479F6C1C /* WDCSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9ABA5CA3ABEB228879DB7C56EB42E2E /* Build configuration list for PBXNativeTarget "WDCSqlite" */;
+			buildPhases = (
+				ECBC48AAD7BD6546C2FEA006D1A1AB32 /* Headers */,
+				8A414047C214E226D9F76ACDB133A2AA /* Sources */,
+				BFFC4FDBBACF086AC9B3819A8540E006 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDCSqlite;
+			productName = WDCSqlite;
+			productReference = 79DF0BEF1B209B3B9935AE93756B68CC /* libWDCSqlite.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 984D27B430A46BA480786437927ECF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA61D5DD00D174F6A987AA4CE47A4C86 /* Pods-WDCSqlite_Example */,
+				6C5B98B8B3D340539A0FF22DE40C2FD5 /* Pods-WDCSqlite_Tests */,
+				D04DB41AD5B6B0E9205DA993479F6C1C /* WDCSqlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B293EE932622C910D9702583F3F8DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C470D45D5BA633CB605796841AAC6F9 /* Pods-WDCSqlite_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A414047C214E226D9F76ACDB133A2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5DE66A8B4C638B022530C3185ECB0D /* WDCModelTool.m in Sources */,
+				4180DD64FB4EFDC1E5FEF1897D17BCF7 /* WDCSqlite-dummy.m in Sources */,
+				F7A552CDF1D35EAF766A59BB0905C927 /* WDCSqliteAPI.m in Sources */,
+				A08FC89792EF1BB26B9D0473CDBD245C /* WDCSqliteBaseTool.m in Sources */,
+				8326A0EAEFE0AB73A8D5D3D74CAE528A /* WDCSqliteConditionMaker.m in Sources */,
+				8584538A567768AF32CC904A347FF74A /* WDCSqliteModelTool.m in Sources */,
+				7488E55DD6F921F43A7FB89D34C9C70C /* WDCSqliteTool.m in Sources */,
+				DF0B8652BD9B647081E3B17FE69C3F56 /* WDCTableTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B5ADD0E77C75691070545068CD7C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0B8315594AECE19D98BBBD5907971A /* Pods-WDCSqlite_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77499AD8830712A9EBF06F1DE9481157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDCSqlite;
+			target = D04DB41AD5B6B0E9205DA993479F6C1C /* WDCSqlite */;
+			targetProxy = 9CA2364C34E4AA64BBB6BD712861AA6F /* PBXContainerItemProxy */;
+		};
+		F0D4662577ABC466DE35172A250D8116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WDCSqlite_Example";
+			target = CA61D5DD00D174F6A987AA4CE47A4C86 /* Pods-WDCSqlite_Example */;
+			targetProxy = 09BF1FAD8C1CAF93F8AA3C9FFF000872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C8214330501A57037784A317E03793C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8941262C6F8EF277E022BBA43975D4CF /* Pods-WDCSqlite_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		331370A70F5C9D79FF53D3864B25C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE0FA23876918D9627BDDE1470B90F1 /* WDCSqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WDCSqlite/WDCSqlite-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WDCSqlite;
+				PRODUCT_NAME = WDCSqlite;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93C6338A8CB078B90ED88BFDD7040222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE0FA23876918D9627BDDE1470B90F1 /* WDCSqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WDCSqlite/WDCSqlite-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WDCSqlite;
+				PRODUCT_NAME = WDCSqlite;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E4FE2CF4D290B7C6DCFBB7FE9E314FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFD0B7977455E2E10CD04EC009F6076 /* Pods-WDCSqlite_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34C4602F90C3D2B82EB4104D9CCE8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA758B9CA9150126D898214B8B5EC06F /* Pods-WDCSqlite_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF24D04E5A2994990A2BCFD757CF059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9516DBD7CFD445DFAB9BFE19B8F51AD1 /* Pods-WDCSqlite_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A31E952F7CE741598BE0AAEF4A6B51 /* Build configuration list for PBXNativeTarget "Pods-WDCSqlite_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF24D04E5A2994990A2BCFD757CF059 /* Debug */,
+				9E4FE2CF4D290B7C6DCFBB7FE9E314FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E115765F2F79411C3F574F4BC22A898 /* Build configuration list for PBXNativeTarget "Pods-WDCSqlite_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8214330501A57037784A317E03793C /* Debug */,
+				B34C4602F90C3D2B82EB4104D9CCE8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9ABA5CA3ABEB228879DB7C56EB42E2E /* Build configuration list for PBXNativeTarget "WDCSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C6338A8CB078B90ED88BFDD7040222 /* Debug */,
+				331370A70F5C9D79FF53D3864B25C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

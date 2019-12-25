@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="WDCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Fx-A3-585">
+                                <rect key="frame" x="0.0" y="20" width="375" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkO-eo-27d">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
+                                        <state key="normal" title="插入"/>
+                                        <connections>
+                                            <action selector="insertAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="0Zl-W2-6XC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHk-pz-y40">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="30"/>
+                                        <state key="normal" title="查询"/>
+                                        <connections>
+                                            <action selector="queryAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="06s-Ri-s6G"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjJ-5j-kZ4">
+                                        <rect key="frame" x="250" y="0.0" width="125" height="30"/>
+                                        <state key="normal" title="删除"/>
+                                        <connections>
+                                            <action selector="deleteAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="7LQ-hs-jMJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gjJ-5j-kZ4" firstAttribute="width" secondItem="qHk-pz-y40" secondAttribute="width" id="GkA-rp-KlN"/>
+                                    <constraint firstItem="MkO-eo-27d" firstAttribute="width" secondItem="gjJ-5j-kZ4" secondAttribute="width" id="jYQ-Xb-kka"/>
+                                </constraints>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EED-7k-31b">
+                                <rect key="frame" x="0.0" y="50" width="375" height="617"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="whP-gf-Uak" id="dTG-b9-0Qg"/>
+                                    <outlet property="delegate" destination="whP-gf-Uak" id="GG9-JV-fiz"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="EED-7k-31b" secondAttribute="bottom" id="5Gv-83-WYv"/>
+                            <constraint firstItem="EED-7k-31b" firstAttribute="top" secondItem="8Fx-A3-585" secondAttribute="bottom" id="OnD-of-4gN"/>
+                            <constraint firstAttribute="trailing" secondItem="EED-7k-31b" secondAttribute="trailing" id="UUr-lf-QaV"/>
+                            <constraint firstItem="EED-7k-31b" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="aG2-JK-Wrc"/>
+                            <constraint firstItem="8Fx-A3-585" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="gnx-FQ-g45"/>
+                            <constraint firstAttribute="trailing" secondItem="8Fx-A3-585" secondAttribute="trailing" id="kmA-ho-m2l"/>
+                            <constraint firstItem="8Fx-A3-585" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="vQp-Vr-oTj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultTableView" destination="EED-7k-31b" id="JvN-5Y-Wd9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,16 @@
+PODS:
+  - WDCSqlite (0.1.0)
+
+DEPENDENCIES:
+  - WDCSqlite (from `../`)
+
+EXTERNAL SOURCES:
+  WDCSqlite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WDCSqlite: 23f1e565dc1a8de9c18b5b0df3df7c2ce9c655f6
+
+PODFILE CHECKSUM: bfefee6baab85db2df0aca36184fb40eee157118
+
+COCOAPODS: 1.7.1

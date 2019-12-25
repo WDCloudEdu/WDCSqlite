@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WDCSqlite_Example' do
+  pod 'WDCSqlite', :path => '../'
+
+  target 'WDCSqlite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
